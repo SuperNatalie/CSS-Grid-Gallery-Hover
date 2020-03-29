@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    width: 610px;
+    height: 610px;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 4px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9 {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.shadow {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   opacity: 0.5;
+   top: 200px;
+   transition: top 1s ease-in;
+}
+
+
+
+
+.img1:hover div, .img1:hover div, .img2:hover div, .img3:hover div, .img4:hover div, .img5:hover div, .img6:hover div, .img7:hover div, .img8:hover div, .img9:hover div {
+    top: 0;
+}
+
+
+
+
